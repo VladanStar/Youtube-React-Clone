@@ -2,6 +2,7 @@ import React from "react";
 import "./SearchPage.css"
 import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
 import ChannelRow from "./ChannelRow";
+import VideoRow from "./VideoRow"; 
 
 
 function SearchPage() {
@@ -20,6 +21,56 @@ function SearchPage() {
             noOfVideos={382}
             description ="You can find awesome programing"
             />
+            <hr />
+            <VideoRow 
+            views="1.5"
+            subs= "679K"
+            description ="Do you want a FREE online"
+            timestamp= "59 seconds ago"
+            title ="Let's build a Youtube Clone React"
+            image ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIRQ4xTeI34OAoR-xY4bR6R8D99etzxbZug&usqp=CAU"
+            />
+             <VideoRow 
+            views="1.5"
+            subs= "679K"
+            description ="Do you want a FREE online"
+            timestamp= "59 seconds ago"
+            title ="Let's build a Youtube Clone React"
+            image ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIRQ4xTeI34OAoR-xY4bR6R8D99etzxbZug&usqp=CAU"
+            />
+             <VideoRow 
+            views="1.5"
+            subs= "679K"
+            description ="Do you want a FREE online"
+            timestamp= "59 seconds ago"
+            title ="Let's build a Youtube Clone React"
+            image ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIRQ4xTeI34OAoR-xY4bR6R8D99etzxbZug&usqp=CAU"
+            />
+             <VideoRow 
+            views="1.5"
+            subs= "679K"
+            description ="Do you want a FREE online"
+            timestamp= "59 seconds ago"
+            title ="Let's build a Youtube Clone React"
+            image ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIRQ4xTeI34OAoR-xY4bR6R8D99etzxbZug&usqp=CAU"
+            />
+             <VideoRow 
+            views="1.5"
+            subs= "679K"
+            description ="Do you want a FREE online"
+            timestamp= "59 seconds ago"
+            title ="Let's build a Youtube Clone React"
+            image ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIRQ4xTeI34OAoR-xY4bR6R8D99etzxbZug&usqp=CAU"
+            />
+             <VideoRow 
+            views="1.5"
+            subs= "679K"
+            description ="Do you want a FREE online"
+            timestamp= "59 seconds ago"
+            title ="Let's build a Youtube Clone React"
+            image ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyIRQ4xTeI34OAoR-xY4bR6R8D99etzxbZug&usqp=CAU"
+            />
+
         </div>
     )
 }
