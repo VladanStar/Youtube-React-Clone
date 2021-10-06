@@ -9,4 +9,21 @@
 }
 .videoCard_info {
    display: flex; 
+   margin-top: 10px;
+   padding-right: 30px;
+}
+.video_text {
+    margin-left: 15px;
+}
+.videoCard_text >h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.videoCard_text >p {
+    font-size: 14px;
+    color: gray;
+}
+.video_avatar {
+    height: 30px !important;
+    width: 30px !important;
 }
