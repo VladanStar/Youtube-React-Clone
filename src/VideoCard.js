@@ -1,11 +1,11 @@
 import React from 'react';
 import  Avatar  from '@material-ui/core/Avatar';
-
+import "./VideoCard.css"
 function VideoCard(props) {
     const {image, title, channel, views,timestamp, channelImage} = props;
     return (
         <div className="videoCard">
-            <img src={image} alt=""/>
+            <img  className="videoCard_thumbnail" src={image} alt=""/>
             <div className="videoCard_info">
                 <Avatar className="videoCard_avatar" 
                 alt={channel} 
